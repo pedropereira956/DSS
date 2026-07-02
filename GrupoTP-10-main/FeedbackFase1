@@ -1,0 +1,18 @@
+Grupo 10
+
+Modelo de Domínio:
+- não existe a noção de menu, como agregação de produtos? Da forma como está descrito não se percebe.
+Falta detalhe
+- As tarefas podiam ser mais genéricas (estão demasiado instanciadas a tarefas existentes).
+- O funcionário está num posto, mas a relação entre tarefa e posto é que é relevante. Depois num posto estará alocado um funcionário.
+- o stock não é uma entidade "solta". O stock representa o número de unidades de um produto que existem actualmente. Essa informação não está no modelo.
+
+- boa análise às restrições das relações.
+
+Modelo de Use Cases:
+
+- no UC de "efectuar pedido" o Fluxo alternativo 2 parece ser um fluxo de excepção. É necessário corrigir
+- o UC efectuar pagamento é externo ao sistema. Este sistema apenas deverá registar a existência de um pagamento que foi efectuado e pode registar a forma de pagamento
+- UC 4, mais um fluxo de excepção que é um fluxo alternativo.
+É preciso estar atento a estes detalhes.
+
